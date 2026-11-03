@@ -24,8 +24,4 @@ dist/
 # Логи та IDE
 *.log
 .idea/
-<<<<<<< HEAD
 .vscode/
-=======
-.vscode/
->>>>>>> f851653 (fix: прибрано текст команд із .gitignore та .env.example)
