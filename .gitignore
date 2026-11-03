@@ -1,0 +1,30 @@
+cd C:\Projects\land-bank
+@'
+# Секрети та оточення
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend (на майбутнє)
+node_modules/
+dist/
+
+# Дампи та резервні копії даних
+*.bak
+*.bacpac
+*.dump
+*.sql.gz
+
+# Логи та IDE
+*.log
+.idea/
+.vscode/
+'@ | Set-Content -Path .gitignore -Encoding utf8
